@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEPENDENCIES	Makefile	/^DEPENDENCIES = $(GISDEP) $(RASTERDEP)$/;"	m
+LIBES	Makefile	/^LIBES = $(GISLIB) $(RASTERLIB)$/;"	m
+MODULE_TOPDIR	Makefile	/^MODULE_TOPDIR = ..\/..\/..$/;"	m
+PGM	Makefile	/^PGM = r.example$/;"	m
+c_calc	main.c	/^CELL c_calc(CELL x)$/;"	f
+d_calc	main.c	/^DCELL d_calc(DCELL x)$/;"	f
+f_calc	main.c	/^FCELL f_calc(FCELL x)$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f

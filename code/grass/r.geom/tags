@@ -1,0 +1,143 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CATCOLORS	local_proto.h	/^} CATCOLORS;$/;"	t	typeref:struct:__anon7
+CN	local_proto.h	/^  CN, \/* concave slope *\/$/;"	e	enum:__anon6
+CNT	local_proto.h	/^  CNT \/* counter *\/$/;"	e	enum:__anon6
+CV	local_proto.h	/^  CV, \/* convex slope *\/$/;"	e	enum:__anon6
+DEGREE2RAD	local_proto.h	45;"	d
+DEPENDENCIES	Makefile	/^DEPENDENCIES = $(RASTERDEP) $(GISDEP)$/;"	m
+FCOLORS	local_proto.h	/^} FCOLORS;$/;"	t	typeref:struct:__anon8
+FL	local_proto.h	/^  FL, \/* flat *\/$/;"	e	enum:__anon6
+FORMS	local_proto.h	/^} FORMS;$/;"	t	typeref:enum:__anon6
+FS	local_proto.h	/^  FS, \/* footslope *\/$/;"	e	enum:__anon6
+GLOBAL	local_proto.h	11;"	d
+GLOBAL	local_proto.h	9;"	d
+GRADE	local_proto.h	32;"	d
+H	local_proto.h	/^GLOBAL double H,V;$/;"	v
+IO	local_proto.h	/^} IO;$/;"	t	typeref:struct:__anon3
+LIBES	Makefile	/^LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB)$/;"	m
+M2PI	local_proto.h	28;"	d
+MAIN	main.c	21;"	d	file:
+MAPS	local_proto.h	/^} MAPS;$/;"	t	typeref:struct:__anon2
+MAX	local_proto.h	49;"	d
+MIN	local_proto.h	50;"	d
+MODULE_TOPDIR	Makefile	/^MODULE_TOPDIR = ..\/..$/;"	m
+MULTI	local_proto.h	/^} MULTI;$/;"	t	typeref:struct:__anon4
+PATTERN	local_proto.h	/^} PATTERN;$/;"	t	typeref:struct:__anon5
+PGM	Makefile	/^PGM = r.geomorphon$/;"	m
+PI	local_proto.h	24;"	d
+PI2	local_proto.h	16;"	d
+PI2PERCENT	local_proto.h	37;"	d
+PI4	local_proto.h	20;"	d
+PK	local_proto.h	/^  PK, \/* peak, summit *\/$/;"	e	enum:__anon6
+PT	local_proto.h	/^  PT, \/* pit, depression *\/$/;"	e	enum:__anon6
+RAD2DEGREE	local_proto.h	46;"	d
+RI	local_proto.h	/^  RI, \/* ridge *\/$/;"	e	enum:__anon6
+SH	local_proto.h	/^  SH, \/* shoulder *\/$/;"	e	enum:__anon6
+SL	local_proto.h	/^  SL, \/* slope *\/$/;"	e	enum:__anon6
+STRING	local_proto.h	/^typedef char* STRING;$/;"	t
+UNKNOWN	local_proto.h	41;"	d
+V	local_proto.h	/^GLOBAL double H,V;$/;"	v
+VL	local_proto.h	/^  VL, \/* valley *\/$/;"	e	enum:__anon6
+ZERO	local_proto.h	/^  ZERO, \/* zero cats do not accept zero category *\/$/;"	e	enum:__anon6
+__	local_proto.h	/^  __, \/* error *\/$/;"	e	enum:__anon6
+b	local_proto.h	/^  int b;$/;"	m	struct:__anon7
+b	local_proto.h	/^  int b;$/;"	m	struct:__anon8
+buffer	local_proto.h	/^	void* buffer;$/;"	m	struct:__anon3
+calc_pattern	pattern.c	/^int calc_pattern(PATTERN* pattern, int row, int cur_row, int col)$/;"	f
+cat	local_proto.h	/^  double cat;$/;"	m	struct:__anon8
+cat	local_proto.h	/^  int cat;$/;"	m	struct:__anon7
+cell_res	local_proto.h	/^GLOBAL double cell_res;$/;"	v
+cell_step	local_proto.h	/^GLOBAL int cell_step;$/;"	v
+coss	geom.c	/^static double coss[8]={0.7071067812,1,0.7071067812,0,-0.7071067812,-1,-0.7071067812,0}; \/* cosinus *\/$/;"	v	file:
+coss	pattern.c	/^static double coss[8]={0.7071067812,1,0.7071067812,0,-0.7071067812,-1,-0.7071067812,0}; \/* cosinus *\/$/;"	v	file:
+description	local_proto.h	/^	char* description;$/;"	m	struct:__anon3
+determine_binary	geom.c	/^int determine_binary(int* pattern, int sign)$/;"	f
+determine_form	geom.c	/^int determine_form(int num_minus, int num_plus)$/;"	f
+determine_ternary	geom.c	/^int determine_ternary(int* pattern)$/;"	f
+dirs	geom.c	/^static double dirs[8]={0.7854,0.,5.4978,4.7124,3.9270,3.1416,2.3562,1.5708}; \/* radians *\/$/;"	v	file:
+dirs	pattern.c	/^static double dirs[8]={0.7854,0.,5.4978,4.7124,3.9270,3.1416,2.3562,1.5708}; \/* radians *\/$/;"	v	file:
+distance	local_proto.h	/^	double distance[64];$/;"	m	struct:__anon5
+elev	local_proto.h	/^  FCELL **elev;$/;"	m	struct:__anon2
+elevation	local_proto.h	/^	float elevation[64];$/;"	m	struct:__anon5
+elevation	local_proto.h	/^GLOBAL MAPS elevation;$/;"	v
+elevname	local_proto.h	/^  char elevname[150];$/;"	m	struct:__anon2
+exposition	geom.c	/^float exposition(float* elevation)$/;"	f
+extends	geom.c	/^float extends(PATTERN* pattern, int pattern_size)$/;"	f
+fd	local_proto.h	/^	int fd;$/;"	m	struct:__anon3
+fd	local_proto.h	/^	int fd;$/;"	m	struct:__anon4
+fd	local_proto.h	/^  int fd; \/* file descriptor *\/$/;"	m	struct:__anon2
+flat_distance	local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+flat_threshold	local_proto.h	/^GLOBAL double flat_threshold, flat_threshold_height;$/;"	v
+flat_threshold_height	local_proto.h	/^GLOBAL double flat_threshold, flat_threshold_height;$/;"	v
+forms_buffer	local_proto.h	/^	CELL* forms_buffer;$/;"	m	struct:__anon4
+free_map	memory.c	/^int free_map (FCELL **map, int n) {$/;"	f
+g	local_proto.h	/^  int g;$/;"	m	struct:__anon7
+g	local_proto.h	/^  int g;$/;"	m	struct:__anon8
+get_cell	memory.c	/^int get_cell(int col, float* buf_row, void* buf, RASTER_MAP_TYPE raster_type) {$/;"	f
+global_ternary_codes	local_proto.h	/^unsigned int global_ternary_codes[6562];$/;"	v
+gui	local_proto.h	/^	char* gui;$/;"	m	struct:__anon3
+i_dem	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+intensity	geom.c	/^float intensity(float* elevation, int pattern_size)$/;"	f
+io_size	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+label	local_proto.h	/^  char* label;$/;"	m	struct:__anon7
+label	local_proto.h	/^  char* label;$/;"	m	struct:__anon8
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+name	local_proto.h	/^	char name[100];$/;"	m	struct:__anon4
+name	local_proto.h	/^	char* name;$/;"	m	struct:__anon3
+ncols	local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+negatives	local_proto.h	/^	unsigned char negatives;$/;"	m	struct:__anon5
+nextc	pattern.c	/^static int nextc[8] = {1, 0, -1, -1, -1, 0, 1, 1 };$/;"	v	file:
+nextr	pattern.c	/^static int nextr[8] = {-1, -1, -1, 0, 1, 1, 1, 0 };$/;"	v	file:
+nrows	local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+num_negatives	local_proto.h	/^	int num_negatives;$/;"	m	struct:__anon5
+num_of_steps	local_proto.h	/^GLOBAL int num_of_steps;$/;"	v
+num_positives	local_proto.h	/^	int num_positives;$/;"	m	struct:__anon5
+o_azimuth	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+o_elongation	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+o_exposition	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_extend	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+o_forms	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_intensity	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_negative	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_positive	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_range	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+o_ternary	main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon1	file:
+o_variance	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+o_width	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon1	file:
+open_map	memory.c	/^int open_map(MAPS* rast) {$/;"	f
+out_data_type	local_proto.h	/^	RASTER_MAP_TYPE out_data_type;$/;"	m	struct:__anon3
+outputs	main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	t	typeref:enum:__anon1	file:
+pattern	local_proto.h	/^	int pattern[64];$/;"	m	struct:__anon5
+positives	local_proto.h	/^	unsigned char positives;$/;"	m	struct:__anon5
+r	local_proto.h	/^  int r;$/;"	m	struct:__anon7
+r	local_proto.h	/^  int r;$/;"	m	struct:__anon8
+radial2cartesian	geom.c	/^int radial2cartesian(PATTERN* pattern)$/;"	f
+range	geom.c	/^float range(float* elevation)$/;"	f
+raster_type	local_proto.h	/^  RASTER_MAP_TYPE raster_type;$/;"	m	struct:__anon2
+required	local_proto.h	/^	int required;$/;"	m	struct:__anon3
+rotate	geom.c	/^int rotate(unsigned char binary)$/;"	f
+row_buffer_size	local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+row_radius_size	local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+search_cells	local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+search_distance	local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+search_step	local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+shape	geom.c	/^int shape(PATTERN* pattern, int pattern_size, float* azimuth, float* elongation, float* width)$/;"	f
+shift_buffers	memory.c	/^int shift_buffers(int row)$/;"	f
+sins	geom.c	/^static double sins[8]={0.7071067812,0,-0.7071067812,-1,-0.7071067812,0,0.7071067812,1}; \/* sinus *\/$/;"	v	file:
+sins	pattern.c	/^static double sins[8]={0.7071067812,0,-0.7071067812,-1,-0.7071067812,0,0.7071067812,1}; \/* sinus *\/$/;"	v	file:
+skip_cells	local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+skip_distance	local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+start_cells	local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+step_cells	local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+ternary_rotate	geom.c	/^unsigned int ternary_rotate (unsigned int value)$/;"	f
+variance	geom.c	/^float variance(float* elevation, int pattern_size)$/;"	f
+window	local_proto.h	/^GLOBAL struct Cell_head window;$/;"	v	typeref:struct:Cell_head
+write_contrast_colors	memory.c	/^int write_contrast_colors (char* raster) {$/;"	f
+write_form_cat_colors	memory.c	/^int write_form_cat_colors (char* raster, CATCOLORS* ccolors) {$/;"	f
+x	local_proto.h	/^	double x[64],y[64]; \/* cartesian coordinates of geomorphon *\/$/;"	m	struct:__anon5
+y	local_proto.h	/^	double x[64],y[64]; \/* cartesian coordinates of geomorphon *\/$/;"	m	struct:__anon5
